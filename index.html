@@ -16,16 +16,9 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <!-- <a href="#" class="brand">Afonin</a> -->
         <a href="#jumbotron" class="brand">Сергей Афонин.</a>
         <div class="branding">
           Frontend developer
-        </div>
-
-        <div id="openMenu" class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
         </div>
 
         <div class="header-nav">
@@ -35,6 +28,12 @@
             <li><a href="#portfolio">Портфолио</a></li>
             <li><a href="#contacts">Контакты</a></li>
           </ul>
+        </div>
+
+        <div id="openMenu" class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
     </header>
@@ -59,33 +58,61 @@
       <!-- ABOUT -->
       <!-- <section id="about">
     <div class="container">
-      <h2>Обо мне</h2>
+      <h2 class="heading">Обо мне</h2>
+
+      <div class="section-content">
+        <p>Меня зовут - <strong>Сергей Афонин</strong>.</p>
+        <p>
+    
+        </p>
+      </div>
     </div>
   </section> -->
 
       <!-- SKILLS -->
       <!-- <section id="skills">
     <div class="container">
-      <h2>Навыки</h2>
+      <h2 class="heading">Навыки</h2>
     </div>
   </section> -->
 
       <!-- PORTFOLIO -->
       <!-- <section id="portfolio">
     <div class="container">
-      <h2>Портфолио</h2>
+      <h2 class="heading">Портфолио</h2>
     </div>
   </section> -->
 
       <!-- CONTACTS -->
-      <!-- <section id="contacts">
-    <div class="container">
-      <h2>Контакты</h2>
-    </div>
-  </section> -->
-    </main>
+      <section id="contacts">
+        <div class="container">
+          <h2 class="heading">Контакты</h2>
 
-    <!-- <div id="btn-top">Up</div> -->
+          <div class="section-content">
+            <div class="contacts-list">
+              <ul>
+                <li class="email">
+                  <a href="mailto:afonin.it@gmail.com">afonin.it@gmail.com</a>
+                </li>
+                <li class="phone">
+                  <a href="tel:+380963973250">+38 (096) 397-32-50</a>
+                </li>
+              </ul>
+            </div>
+            <div class="contacts-form">
+              <form action="#">
+                <h4>Обратная связь:</h4>
+
+                <input type="text" class="input" placeholder="Имя" required />
+                <input type="email" class="input" placeholder="Email" required />
+                <textarea class="input" placeholder="Сообщение" required></textarea>
+                <button class="button" type="submit">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script src="js/bundle.js"></script>
   </body>
